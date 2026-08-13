@@ -17,7 +17,7 @@ class Vehicle {
     {
         return `Name:${this.name},Model:${this.model}, Colour:${this.color},Price:${this.price},Type:${this.Type},Status:${this.status}`;
     }
-    statusDeatils()
+    statusDetails()
     {
         if(this.status==="Available")
         {
@@ -26,6 +26,9 @@ class Vehicle {
         else if(this.status==="Rented")
         {
             return `The vehicle ${this.name} is currently rented`;
+        }
+        else {
+            return `Status:${this.status}`;
         }
     }
 }
