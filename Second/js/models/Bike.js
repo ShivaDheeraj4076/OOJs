@@ -5,7 +5,13 @@ class Bike extends Vehicle{
     this.fuelType=fuelType;
 
   }
+<<<<<<< HEAD
+//hi
+//hello
+=======
 // hello
+//hi
+>>>>>>> main
   calculatePrice(days)
   {
     this.totalprice=super.calculatePrice(days);
