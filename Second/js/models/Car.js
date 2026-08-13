@@ -19,4 +19,9 @@ class Car  extends Vehicle
 return `Status:${this.status}`;
   }
 
+  statement()
+  {
+    return valuesss;
+  }
+
 }
