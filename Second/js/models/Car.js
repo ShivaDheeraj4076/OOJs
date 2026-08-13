@@ -2,7 +2,7 @@ class Car  extends Vehicle
 {
   constructor(name,model,color,price,Type,status,fuelType)
   {
-    super(name,model,color,price,Type,status);
+    super(name,model,color,price,Type,fuelType,status);
     this.fuelType=fuelType;
   }
   calculatePrice(days)
