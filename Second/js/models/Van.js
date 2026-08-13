@@ -1,4 +1,4 @@
-class Bike extends Vehicle{
+class Van extends Vehicle{
     constructor(name,model,color,price,Type,status,fuelType,seats)
   {
     super(name,model,color,price,Type,status);
