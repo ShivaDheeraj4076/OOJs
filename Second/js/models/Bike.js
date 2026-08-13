@@ -25,5 +25,12 @@ class Bike extends Vehicle{
   statusDeatils()
   {
     return `Status:${this.status}`;
+    //add this to main
+
+
+  }
+  di()
+  {
+    return hi;
   }
 }
