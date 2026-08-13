@@ -6,6 +6,7 @@ class Bike extends Vehicle{
 
   }
 // hello
+//hi
   calculatePrice(days)
   {
     this.totalprice=super.calculatePrice(days);
