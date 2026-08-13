@@ -20,5 +20,11 @@ class Bike extends Vehicle{
   {
     return `Status:${this.status}`;
     //add this to main
+
+
+  }
+  di()
+  {
+    return hi;
   }
 }
